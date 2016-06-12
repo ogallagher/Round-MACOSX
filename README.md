@@ -1,7 +1,11 @@
+<img src="https://github.com/ogallagher/Round-Source/blob/master/Round_Icon/icon.png" width="128">
+
 # Round-MACOSX
-This project is a multiplayer, top-down, shooting, comptetitive, cooperative computer game called Round.
+This project is a multiplayer, top-down, comptetitive, cooperative, shooting game called Round.
 
 ### Development
+_Round is not yet playable_
+
 Round is in development for its 8th version. For more details on recent updates and development of the game, visit the link
 given under the __Source__ header near the end of this document.
 
@@ -30,7 +34,7 @@ To install this application (which is not suggested at the moment, given it shou
     2. Open _System Preferences_ on your computer
     3. Navigate to and open _Security and Privacy_
     4. Under the _General_ menu, change the preferences entitled _Permit applications downloaded from:_ to _Anywhere_
-    5. It's going to recommend that you not do that, and it's true that it's not recommendable to allow any application to run, so if you think Round is malware, don't install it
+    5. It's going to recommend that you not do that, and it's true that it's not recommendable to allow any application to run, so if you think Round is malware (it's not; you can check the [source code](https://github.com/ogallagher/Round-Source)), don't install it
   5. Open _Round_Client_ in the project folder
     1. Your computer will give you one last warning before allowing you to proceed.
   6. Restore your original security preferences
@@ -86,16 +90,27 @@ __Join a Team:__ To be part of a team, you have to indicate its code in the Sign
 
 __Team Code:__ Just append underscore + TEAMCODE to the end of your username when signing in to use it (if your username is _Bob McSomeone123_ and your team code is _popcorn_, sign in with: _Bob McSomeone123_popcorn_) 
 
+__Team Aspects:__ Players of the same team only to 50% damage to each other. Bases heal players of its team and turrets aim at everyone except players of its team.
+
 ### Chat
-After you have signed and are playing, move the mouse to the lower-right corner and press the button to chat, or just use the ENTER/RETURN key to toggle the chat menu. Type a message 
-and press ENTER to send it. 
+After you have signed and are playing, move the mouse to the lower-right corner and press the button to chat, or just use the ENTER/RETURN key to toggle the chat menu. Type a message and press ENTER to send it. 
 
 By default, the message is sent to everyone. If you are on a team, it is sent to those on your team. 
 
 To send a message to an individual player, append "-ReceiverName" to the end of your message (e.g. _Hi, Player One. It's Player Two speaking.-Player One_).
 
 ### Stats
+Your player is shown with your name (without numbers) above and your score below.
+
 To see your health and remaining ammunitions in-game, move your mouse to the upper-left corner.
+
+###Score
+There are three ways to get coins:
+- Kill other players and they drop a coin
+- Kill enemies and they drop a coin 60% of the time
+- Coins spawn randomly around the field
+
+When you are killed, you lose an integer value of 15% of your score.
 
 ### Enemies
 There are artificial enemies that the server creates as well as players in the field. The enemies drop a coin 60% of the times they
@@ -103,6 +118,8 @@ die, and are shown without names.
 
 ### Quit
 To exit the game without signing out, move your mouse to the upper-right corner and click the stop button.
+
+You will not lose any score by quitting.
 
 ### Change Username
 To change your username in-game, move your mouse to the lower-left corner and click the rename button (looks like a pencil). Just type your new name and hit ENTER/RETURN.
