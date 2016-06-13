@@ -138,3 +138,8 @@ If you have a computer running a windows operating system, check out the followi
 - For Windows-64 OS: [ogallagher/Round-WIN64](https://github.com/ogallagher/Round-WIN64)
 
 ----
+
+#Video of Game
+<img src="https://github.com/ogallagher/Round-Source/blob/master/gameplay.gif" width=800>
+
+----
