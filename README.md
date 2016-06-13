@@ -1,4 +1,8 @@
-<img src="https://github.com/ogallagher/Round-Source/blob/master/Round_Icon/icon.png" width="128">
+<p> 
+  <a href="http://recordit.co/b9YXqwfI5S">
+    <img src="https://github.com/ogallagher/Round-Source/blob/master/Round_Icon/icon.png" align="absmiddle" width="128">
+  </a>
+</p>
 
 # Round-MACOSX
 This project is a multiplayer, top-down, comptetitive, cooperative, shooting game called Round.
@@ -48,6 +52,9 @@ If you notice anything inaccurate or confusing in the above installation instruc
 # Gameplay
 There are instructions that I wrote that can be read within the game, but they don't go into much detail and are somewhat incomplete
 in an attempt to make them concise, so here are more exhaustive instructions.
+
+### Video
+If you want to see a demo of the game being played, click on the icon at the top of this document.
 
 ### Goal
 Increase your score
@@ -136,10 +143,5 @@ at this repository: [ogallagher/Round-Source](https://github.com/ogallagher/Roun
 If you have a computer running a windows operating system, check out the following repositories:
 - For Windows-32 OS: [ogallagher/Round-WIN32](https://github.com/ogallagher/Round-WIN32)
 - For Windows-64 OS: [ogallagher/Round-WIN64](https://github.com/ogallagher/Round-WIN64)
-
-----
-
-#Video of Game
-<img src="https://github.com/ogallagher/Round-Source/blob/master/gameplay.gif" width=800>
 
 ----
